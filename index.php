@@ -47,8 +47,7 @@ if(isset($_POST['submit'])) {
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="header.css">
+  <link href="assets/css/index.css" rel="stylesheet">
 
   
 </head>
@@ -66,16 +65,16 @@ if(isset($_POST['submit'])) {
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/s1.jpg)">
           <div class="container">
-            <h2>Welcome to <span>Emergency Ambulance Hiring Portal</span></h2>
+            <h2>Welcome to <span>Ambulance Hiring Portal</span></h2>
   
             <a href="#appointment" class="btn-get-started scrollto">Hire Ambulance</a>
           </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/s2.jpg)">
           <div class="container">
             <h2>Welcome to <span>Emergency Ambulance Hiring Portal</h2>
         
@@ -84,7 +83,7 @@ if(isset($_POST['submit'])) {
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/s3.jpg)">
           <div class="container">
             <h2>Welcome to <span>Emergency Ambulance Hiring Portal</h2>
             <a href="#about" class="btn-get-started scrollto">Read More</a>
@@ -143,6 +142,85 @@ if(isset($_POST['submit'])) {
 
             </div>
           </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>In an emergency? Need help now?</h3>
+          <a class="cta-btn scrollto" href="#appointment">Hire an Ambulance</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+      <div class="row">
+    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card-box" data-aos="fade-up" data-aos-delay="100">
+            <h1>1</h1>
+            <div class="card">
+                <img src="assets/img/service-v1-1.jpg" alt="Ambulance Car">
+                <div class="card-content">
+                    <div class="card-title">Ambulance Car</div>
+                    <div class="card-text">Lorem ipsum is simply dolor sit am adipi we help you ensure everyone.</div>
+                    <a href="#" class="card-link">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card-box" data-aos="fade-up" data-aos-delay="200">
+            <h1>2</h1>
+            <div class="card">
+                <img src="assets/img/service-v1-2.jpg" alt="Ambulance Car">
+                <div class="card-content">
+                    <div class="card-title">Ambulance Car</div>
+                    <div class="card-text">Lorem ipsum is simply dolor sit am adipi we help you ensure everyone.</div>
+                    <a href="#" class="card-link">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card-box" data-aos="fade-up" data-aos-delay="300">
+            <h1>3</h1>
+            <div class="card">
+                <img src="assets/img/service-v1-3.jpg" alt="Ambulance Car">
+                <div class="card-content">
+                    <div class="card-title">Ambulance Car</div>
+                    <div class="card-text">Lorem ipsum is simply dolor sit am adipi we help you ensure everyone.</div>
+                    <a href="#" class="card-link">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card-box" data-aos="fade-up" data-aos-delay="400">
+            <h1>4</h1>
+            <div class="card">
+                <img src="ambulance.jpg" alt="Ambulance Car">
+                <div class="card-content">
+                    <div class="card-title">Ambulance Car</div>
+                    <div class="card-text">Lorem ipsum is simply dolor sit am adipi we help you ensure everyone.</div>
+                    <a href="#" class="card-link">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
         </div>
 
