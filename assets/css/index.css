@@ -105,7 +105,7 @@ body {
   # Top Bar
   --------------------------------------------------------------*/
   #topbar {
-    background: #7da1a1;
+    background: #f5f9f9;
     color: #181717;
     height: 25vh;
     font-size: 16px;
@@ -129,10 +129,68 @@ body {
     height: 60px;
   }
   /*--------------------------------------------------------------
+  # title
+  --------------------------------------------------------------*/
+  .title {
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  
+.benefits-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.benefit-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.benefit-card h3 {
+    font-size: 1.5rem;
+    color: #0033cc;
+    margin-bottom: 10px;
+}
+
+.benefit-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.text-primary {
+    color: #0033cc !important;
+}
+
+.text-secondary {
+    color: #888 !important;
+}
+
+  /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: #d14545;
+    background: #483d3d;
     transition: all 0.5s;
     z-index: 997;
     padding: 20px 0;
@@ -798,11 +856,46 @@ body {
   /*--------------------------------------------------------------
   # Cta
   --------------------------------------------------------------*/
-  .cta {
-    background: #3fbbc0;
-    color: #fff;
-    background-size: cover;
-    padding: 60px 0;
+  
+  
+  
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff4b6e;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+.banner img {
+    width: 150px;
+}
+.banner .content {
+    max-width: 600px;
+}
+.banner .content h1 {
+    font-size: 2em;
+    margin: 0;
+}
+.banner .content p {
+    margin: 10px 0;
+}
+.banner .content .contact-button {
+    background-color: #0033cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.banner .content .contact-button:hover {
+    background-color: #002299;
+}
+
+
+  .object img{
+    width: 200px;
+    height: 200px;
   }
   
   .cta h3 {
@@ -823,6 +916,7 @@ body {
     border: 2px solid #fff;
     color: #fff;
   }
+ 
   
   .cta .cta-btn:hover {
     background: #fff;

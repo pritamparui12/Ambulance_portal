@@ -150,19 +150,29 @@ if(isset($_POST['submit'])) {
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
+    <div class="container " data-aos="zoom-in">
 
-        <div class="text-center">
-          <h3>In an emergency? Need help now?</h3>
-          <a class="cta-btn scrollto" href="#appointment">Hire an Ambulance</a>
+        <div class="banner">
+            <img src="assets/img/ambulance.png" alt="Ambulance">
+            <div class="content">
+                <h1>In an emergency? Need help now?</h1>
+                <p>Call anytime +1 - (246) 333-0089</p>
+            <a class="cta-btn scrollto" href="#appointment">Hire an Ambulance</a>
         </div>
-
-      </div>
-    </section><!-- End Cta Section -->
+            </div>
+        </div>
+            
+        
+    </div>
+</section>
+<!-- End Cta Section -->
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
-
-      <div class="row">
+        <div class="title">
+          <p>What We’re Offering</p>
+          <h1>About Our Services</h1>
+        </div>
+      <div class="row justify-content-around">
     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div class="card-box" data-aos="fade-up" data-aos-delay="100">
             <h1>1</h1>
@@ -197,7 +207,7 @@ if(isset($_POST['submit'])) {
             <div class="card">
                 <img src="assets/img/service-v1-3.jpg" alt="Ambulance Car">
                 <div class="card-content">
-                    <div class="card-title">Ambulance Car</div>
+                    <div class="card-title">Medical Escort</div>
                     <div class="card-text">Lorem ipsum is simply dolor sit am adipi we help you ensure everyone.</div>
                     <a href="#" class="card-link">READ MORE</a>
                 </div>
@@ -205,18 +215,7 @@ if(isset($_POST['submit'])) {
         </div>
     </div>
 
-    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-        <div class="card-box" data-aos="fade-up" data-aos-delay="400">
-            <h1>4</h1>
-            <div class="card">
-                <img src="ambulance.jpg" alt="Ambulance Car">
-                <div class="card-content">
-                    <div class="card-title">Ambulance Car</div>
-                    <div class="card-text">Lorem ipsum is simply dolor sit am adipi we help you ensure everyone.</div>
-                    <a href="#" class="card-link">READ MORE</a>
-                </div>
-            </div>
-        </div>
+    
     </div>
 </div>
 
@@ -228,16 +227,53 @@ if(isset($_POST['submit'])) {
     </section><!-- End Featured Services Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          <h3>In an emergency? Need help now?</h3>
-          <a class="cta-btn scrollto" href="#appointment">Hire an Ambulance</a>
+    <section class="benefits-section py-5 bg-light text-center">
+    <div class="container">
+        <h2 class="text-secondary">Our Benefits List</h2>
+        <h1 class="text-primary mb-4">Our Company Formula For Success</h1>
+        <p class="text-secondary mb-5">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row justify-content-around">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card benefit-card h-100">
+                    <div class="card-body">
+                        <div class="icon mb-3"><img src="assets/img/icon1.png" alt="Longstanding Service"></div>
+                        <h3 class="card-title text-primary">Longstanding Service</h3>
+                        <p class="card-text">Lorem ipsum is simply dolor sit am adipi we help.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card benefit-card h-100">
+                    <div class="card-body">
+                        <div class="icon mb-3"><img src="assets/img/icon2.png" alt="High Standard of Safety"></div>
+                        <h3 class="card-title text-primary">High Standard of Safety</h3>
+                        <p class="card-text">Lorem ipsum is simply dolor sit am adipi we help.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card benefit-card h-100">
+                    <div class="card-body">
+                        <div class="icon mb-3"><img src="assets/img/icon3.png" alt="Bedside to Bedside Care"></div>
+                        <h3 class="card-title text-primary">Bedside to Bedside Care</h3>
+                        <p class="card-text">Lorem ipsum is simply dolor sit am adipi we help.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card benefit-card h-100">
+                    <div class="card-body">
+                        <div class="icon mb-3"><img src="assets/img/icon4.png" alt="Affordable and Effective"></div>
+                        <h3 class="card-title text-primary">Affordable and Effective</h3>
+                        <p class="card-text">Lorem ipsum is simply dolor sit am adipi we help.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
 
-      </div>
-    </section><!-- End Cta Section -->
+
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
