@@ -812,7 +812,7 @@ body {
   }
   
   .featured-services .icon-box:hover::before {
-    background: #3fbbc0;
+    background: #3fc06c;
     top: 0;
     border-radius: 0px;
   }
