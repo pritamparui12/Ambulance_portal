@@ -792,11 +792,13 @@ body {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background: #fff;
+    background: #e9c3c3;
     box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
+    margin: auto;
+    color: white;
   }
   
   .featured-services .icon-box::before {
@@ -857,7 +859,88 @@ body {
   # Cta
   --------------------------------------------------------------*/
   
-  
+  .about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    position: relative;
+}
+.about .section-title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: fadeInDown 1s ease-out;
+}
+.about .section-title p {
+    font-size: 16px;
+    color: #6c757d;
+    animation: fadeInUp 1s ease-out;
+}
+.about .banner {
+    position: relative;
+    margin-bottom: 30px;
+    height: 200px;
+}
+.about .banner img {
+   object-fit: cover;
+}
+.about .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.about .gallery .gallery-img {
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.about .gallery .gallery-img:hover {
+    transform: scale(1.05);
+}
+.about .icon-box {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-out;
+}
+.about .icon-box .icon {
+    font-size: 50px;
+    color: #ff4b6e;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+.about .icon-box h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.about .icon-box p {
+    font-size: 16px;
+    color: #6c757d;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
   
 .banner {
     display: flex;
@@ -891,8 +974,77 @@ body {
 .banner .content .contact-button:hover {
     background-color: #002299;
 }
+/* Hire an Ambulance Section */
+#appointment .form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+#appointment .btn-primary {
+    background-color: #ff4b6e;
+    border-color: #ff4b6e;
+}
+#appointment .btn-primary:hover {
+    background-color: #e63946;
+    border-color: #e63946;
+}
 
+/* Contact Section */
+.contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    position: relative;
+}
+.contact .section-title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: fadeInDown 1s ease-out;
+}
+.contact .section-title p {
+    font-size: 16px;
+    color: #6c757d;
+    animation: fadeInUp 1s ease-out;
+}
+.contact .info-box {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.contact .info-box i {
+    font-size: 24px;
+    color: #ff4b6e;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fceef3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+.contact .info-box h3 {
+    font-size: 18px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+.contact .info-box p {
+    padding: 10px 0 0 0;
+    font-size: 14px;
+    color: #555555;
+}
+.contact .info-box:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% {}
 
+}
   .object img{
     width: 200px;
     height: 200px;

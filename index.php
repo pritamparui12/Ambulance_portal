@@ -277,24 +277,69 @@ if(isset($_POST['submit'])) {
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
+    <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>About Us</h2>
-          <?php
-
-$ret=mysqli_query($con,"select * from tblpage where PageType='aboutus' ");
-$cnt=1;
-while ($row=mysqli_fetch_array($ret)) {
-
-?>
-          <p><?php  echo $row['PageDescription'];?></p><?php } ?>
+            <h2>About Us</h2>
+            <?php
+            $ret=mysqli_query($con,"select * from tblpage where PageType='aboutus' ");
+            $cnt=1;
+            while ($row=mysqli_fetch_array($ret)) {
+            ?>
+            <p><?php echo $row['PageDescription']; ?></p><?php } ?>
         </div>
+        
+        <!-- Banner Section -->
+        <div class="banner">
+            <img src="assets/img/dep" alt="Ambulance Service" class="img-fluid">
+            <div class="banner-text">
+                <h3>Trusted Ambulance Services</h3>
+                <p>Providing reliable and efficient medical transport solutions for over 20 years.</p>
+            </div>
+        </div>
+        
+        <!-- Gallery Section -->
+        <div class="row gallery">
+            <div class="col-lg-4 col-md-6">
+                <div class="icon-box">
+                    <div class="icon"><i class="fas fa-ambulance"></i></div>
+                    <h4>24/7 Emergency Services</h4>
+                    <p>We are always ready to provide immediate medical assistance, no matter the time or place.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="icon-box">
+                    <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                    <h4>Experienced Staff</h4>
+                    <p>Our team consists of highly trained professionals dedicated to saving lives and providing the best care.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="icon-box">
+                    <div class="icon"><i class="fas fa-user-shield"></i></div>
+                    <h4>Safety & Comfort</h4>
+                    <p>We ensure the highest standards of safety and comfort during transport to provide peace of mind.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Image Gallery -->
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="assets/img/departments-1.jpg" class="img-fluid gallery-img" alt="Gallery Image 1">
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="assets/img/departments-2.jpg" class="img-fluid gallery-img" alt="Gallery Image 2">
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="assets/img/departments-3.jpg" class="img-fluid gallery-img" alt="Gallery Image 3">
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="assets/img/departments-4.jpg" class="img-fluid gallery-img" alt="Gallery Image 4">
+            </div>
+        </div>
+    </div>
+</section>
 
-      
-
-      </div>
-    </section><!-- End About Us Section -->
 
     
 
