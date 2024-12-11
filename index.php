@@ -353,27 +353,27 @@ if(isset($_POST['submit'])) {
           <h2>Hire an Ambulance</h2>
         </div>
 
-        <form action="" method="post" role="form" class="form-control" data-aos="fade-up" data-aos-delay="100">
-          <div class="row" style="padding-top:20px">
-            <div class="col-md-4 form-group">
+        <form action="" method="post" role="form" class="form-control" data-aos="fade-up" data-aos-delay="50">
+          <div class="row g-3 align-items-center" style="display: flex; flex-wrap: wrap; gap: 15px; padding-top: 10px;">
+            <div class="col-md-3 form-group">
               <input type="text" name="pname" class="form-control" id="pname" placeholder="Enter Patient Name" required>
             </div>
-            <div class="col-md-4 form-group">
+            <div class="col-md-3 form-group">
               <input type="text" name="rname" class="form-control" id="rname" placeholder="Enter Relative Name" required>
             </div>
            
-            <div class="col-md-4 form-group mt-3 mt-md-0">
+            <div class="col-md-3 form-group mt-3 mt-md-0">
               <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Relative Phone Number" required>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 form-group mt-3">
+            <div class="col-md-3 form-group mt-3">
               <input type="date" name="hdate" class="form-control datepicker" id="hdate" placeholder="Hiring Date" required>
             </div>
-            <div class="col-md-4 form-group mt-3">
+            <div class="col-md-3 form-group mt-3">
               <input type="time" name="htime" class="form-control datepicker" id="htime" placeholder="Hiring Time" required>
             </div>
-            <div class="col-md-4 form-group mt-3">
+            <div class="col-md-3 form-group">
               <select name="ambulancetype" id="ambulancetype" class="form-select">
                 <option value="">Select Type of Ambulance</option>
                 <option value="1">Basic Life Support (BLS) Ambulances</option>
@@ -386,20 +386,20 @@ if(isset($_POST['submit'])) {
             </div>
           </div>
            <div class="row" style="padding-top:20px">
-            <div class="col-md-4 form-group">
+            <div class="col-md-3 form-group">
               <input type="text" name="address" class="form-control" id="address" placeholder="Enter Address" required>
             </div>
-            <div class="col-md-4 form-group">
+            <div class="col-md-3 form-group">
               <input type="text" name="city" class="form-control" id="city" placeholder="Enter City" required>
             </div>
            
-            <div class="col-md-4 form-group mt-3 mt-md-0">
+            <div class="col-md-3 form-group mt-3 mt-md-0">
               <input type="text" class="form-control" name="state" id="state" placeholder="Enter State" required>
             </div>
           </div>
 
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+            <textarea class="form-control" name="message" rows="3" placeholder="Message (Optional)"></textarea>
           </div>
          
           <div class="text-center" style="padding-top: 20px;padding-bottom: 20px;"><button type="submit"  name="submit" class="btn btn-primary">Submit</button></div>
