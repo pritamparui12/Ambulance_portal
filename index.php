@@ -347,6 +347,62 @@ if(isset($_POST['submit'])) {
 
     <!-- ======= Appointment Section ======= -->
     <section id="appointment" class="appointment section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Hire an Ambulance</h2>
+    </div>
+
+    <form action="" method="post" role="form" class="form-control" data-aos="fade-up" data-aos-delay="50">
+      <div class="row g-3 align-items-center" style="display: flex; flex-wrap: wrap; gap: 15px; padding-top: 10px;">
+        <div class="col-md-3 form-group">
+          <input type="text" name="pname" class="form-control" id="pname" placeholder="Enter Patient Name" required>
+        </div>
+        <div class="col-md-3 form-group">
+          <input type="text" name="rname" class="form-control" id="rname" placeholder="Enter Relative Name" required>
+        </div>
+        <div class="col-md-3 form-group">
+          <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Relative Phone Number" required>
+        </div>
+        <div class="col-md-3 form-group">
+          <input type="date" name="hdate" class="form-control" id="hdate" placeholder="Hiring Date" required>
+        </div>
+        <div class="col-md-3 form-group">
+          <input type="time" name="htime" class="form-control" id="htime" placeholder="Hiring Time" required>
+        </div>
+        <div class="col-md-3 form-group">
+          <select name="ambulancetype" id="ambulancetype" class="form-select">
+            <option value="">Select Type of Ambulance</option>
+            <option value="1">Basic Life Support (BLS) Ambulances</option>
+            <option value="2">Advanced Life Support (ALS) Ambulances</option>
+            <option value="3">Non-Emergency Patient Transport Ambulances</option>
+            <option value="4">Boat Ambulance</option>
+          </select>
+        </div>
+        <div class="col-md-3 form-group">
+          <input type="text" name="address" class="form-control" id="address" placeholder="Enter Address" required>
+        </div>
+        <div class="col-md-3 form-group">
+          <input type="text" name="city" class="form-control" id="city" placeholder="Enter City" required>
+        </div>
+        <div class="col-md-3 form-group">
+          <input type="text" class="form-control" name="state" id="state" placeholder="Enter State" required>
+        </div>
+      </div>
+
+      <div class="form-group mt-3">
+        <textarea class="form-control" name="message" rows="3" placeholder="Message (Optional)"></textarea>
+      </div>
+
+      <div class="text-center" style="padding-top: 20px; padding-bottom: 20px;">
+        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+    <!-- <section id="appointment" class="appointment section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -406,7 +462,8 @@ if(isset($_POST['submit'])) {
         </form>
 
       </div>
-    </section><!-- End Appointment Section -->
+    </section>
+    End Appointment Section -->
 
 
     <!-- ======= Contact Section ======= -->
