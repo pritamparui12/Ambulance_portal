@@ -346,73 +346,79 @@ if(isset($_POST['submit'])) {
 
 
     <!-- ======= Appointment Section ======= -->
-    <section id="appointment" class="appointment section-bg">
+    
+    <section id="appointment" class="appointment section-bg py-5">
   <div class="container" data-aos="fade-up">
-    <div class="section-title">
+    <div class="section-title mb-4">
       <h2>Hire an Ambulance</h2>
     </div>
 
-    <div class="d-flex flex-column align-items-center">
-      <!-- Image at the Top -->
-      <!-- <div class="mb-4">
-        <img src="path/to/your-image.jpg" alt="Ambulance Image" class="img-fluid rounded" style="max-height: 250px;">
-      </div> -->
+    <div class="row align-items-center">
+      <!-- Left Side: Image -->
+      <div class="col-md-5 mb-4 mb-md-0">
+        <img src="assets/img/hiring-1.jpg" alt="Ambulance Image" class="img-fluid rounded">
+      </div>
 
-      <!-- Form Below the Image -->
-      <form action="" method="post" role="form" class="form-control p-4 w-100" data-aos="fade-up" data-aos-delay="50">
-        <div class="row g-3">
-          <div class="col-md-4">
-            <input type="text" name="pname" class="form-control" id="pname" placeholder="Enter Patient Name" required>
+      <!-- Right Side: Form -->
+      <div class="col-md-7">
+        <form action="" method="post" role="form" class="form-control p-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" name="pname" class="form-control" id="pname" placeholder="Enter Patient Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="rname" class="form-control" id="rname" placeholder="Enter Relative Name" required>
+            </div>
           </div>
-          <div class="col-md-4">
-            <input type="text" name="rname" class="form-control" id="rname" placeholder="Enter Relative Name" required>
-          </div>
-          <div class="col-md-4">
-            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Relative Phone Number" required>
-          </div>
-        </div>
 
-        <div class="row g-3 mt-2">
-          <div class="col-md-4">
-            <input type="date" name="hdate" class="form-control" id="hdate" required>
+          <div class="row g-3 mt-2">
+            <div class="col-md-6">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Relative Phone Number" required>
+            </div>
+            <div class="col-md-6">
+              <select name="ambulancetype" id="ambulancetype" class="form-select" required>
+                <option value="">Select Type of Ambulance</option>
+                <option value="1">Basic Life Support (BLS)</option>
+                <option value="2">Advanced Life Support (ALS)</option>
+                <option value="3">Non-Emergency Transport</option>
+                <option value="4">Boat Ambulance</option>
+              </select>
+            </div>
           </div>
-          <div class="col-md-4">
-            <input type="time" name="htime" class="form-control" id="htime" required>
-          </div>
-          <div class="col-md-4">
-            <select name="ambulancetype" id="ambulancetype" class="form-select" required>
-              <option value="">Select Type of Ambulance</option>
-              <option value="1">Basic Life Support (BLS)</option>
-              <option value="2">Advanced Life Support (ALS)</option>
-              <option value="3">Non-Emergency Transport</option>
-              <option value="4">Boat Ambulance</option>
-            </select>
-          </div>
-        </div>
 
-        <div class="row g-3 mt-2">
-          <div class="col-md-4">
-            <input type="text" name="address" class="form-control" id="address" placeholder="Enter Address" required>
+          <div class="row g-3 mt-2">
+            <div class="col-md-6">
+              <input type="date" name="hdate" class="form-control" id="hdate" required>
+            </div>
+            <div class="col-md-6">
+              <input type="time" name="htime" class="form-control" id="htime" required>
+            </div>
           </div>
-          <div class="col-md-4">
-            <input type="text" name="city" class="form-control" id="city" placeholder="Enter City" required>
-          </div>
-          <div class="col-md-4">
-            <input type="text" class="form-control" name="state" id="state" placeholder="Enter State" required>
-          </div>
-        </div>
 
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="3" placeholder="Message (Optional)"></textarea>
-        </div>
+          <div class="row g-3 mt-2">
+            <div class="col-md-6">
+              <input type="text" name="address" class="form-control" id="address" placeholder="Enter Address" required>
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="city" class="form-control" id="city" placeholder="Enter City" required>
+            </div>
+          </div>
 
-        <div class="text-center mt-4">
-          <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
+          <div class="mt-3">
+            <textarea class="form-control" name="message" rows="3" placeholder="Message (Optional)"></textarea>
+          </div>
+
+          <div class="text-center mt-4">
+            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
+
+
+        
 
 
 
