@@ -153,7 +153,7 @@ if(isset($_POST['submit'])) {
     <div class="container " data-aos="zoom-in">
 
         <div class="banner">
-            <img src="assets/img/ambulance.png" alt="Ambulance">
+            <img src="assets/img/ambulance-4864947-4073647.webp" alt="Ambulance">
             <div class="content">
                 <h1>In an emergency? Need help now?</h1>
                 <p>Call anytime +1 - (246) 333-0089</p>
@@ -290,7 +290,7 @@ if(isset($_POST['submit'])) {
         
         <!-- Banner Section -->
         <div class="banner">
-            <img src="assets/img/dep" alt="Ambulance Service" class="img-fluid">
+            <img src="assets/img/ambulance.png" alt="Ambulance Service" class="img-fluid">
             <div class="banner-text">
                 <h3>Trusted Ambulance Services</h3>
                 <p>Providing reliable and efficient medical transport solutions for over 20 years.</p>
@@ -355,9 +355,19 @@ if(isset($_POST['submit'])) {
 
     <div class="row align-items-center">
       <!-- Left Side: Image -->
-      <div class="col-md-5 mb-4 mb-md-0">
-        <img src="assets/img/hiring-1.jpg" alt="Ambulance Image" class="img-fluid rounded">
-      </div>
+  <div class="col-md-5 mt-2 mb-md-0">
+    <div id="map" style="height: 477px; width: 100%;">
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.930528759498!2d88.37667491506338!3d22.77533563159873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8b3a2129a162d%3A0xf725f1b0b5b94f3e!2sBarrackpore%2C%20West%20Bengal%2C%20India!5e0!3m2!1sen!2sus!4v1671722715319!5m2!1sen!2sus" 
+      height="480px"
+      width="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
 
       <!-- Right Side: Form -->
       <div class="col-md-7">

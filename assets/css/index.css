@@ -952,7 +952,9 @@ body {
     position: relative;
 }
 .banner img {
-    width: 150px;
+    width: 500px;
+    position: absolute;
+    left: 67%;
 }
 .banner .content {
     max-width: 600px;
