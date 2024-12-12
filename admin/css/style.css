@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
@@ -13,7 +8,7 @@ html, body{
 	font-family: 'Roboto', sans-serif;
     font-size: 100%;
     overflow-x: hidden;
-    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    
 	background-size:cover;
 }
 body a{
@@ -2363,7 +2358,7 @@ ul.inbox-pagination li {
 	    text-align: center;
 }
 .w3layouts-main {
-    width: 35%;
+    width: 100%;
     margin:5em auto;
     background:rgba(171, 119, 157, 0.27);
     padding: 42px 35px;
@@ -2537,7 +2532,7 @@ div#graph10,div#graph11 {
 /*-- responsive design --*/
 @media (max-width: 1440px){
 .w3layouts-main {
-    width: 36%;
+    width: 100%;
     border: solid 1px #000;
 }
 .captn {
@@ -2548,7 +2543,7 @@ div#graph10,div#graph11 {
 }
 @media (max-width: 1366px){
 .w3layouts-main {
-    width: 35%;
+    width: 100%;
 }
 .captn {
     width: 280px;
@@ -2557,7 +2552,7 @@ div#graph10,div#graph11 {
 }
 @media (max-width: 1280px){
 .w3layouts-main {
-    width: 38%;
+    width: 100%;
 }
 .captn {
     width: 256px;

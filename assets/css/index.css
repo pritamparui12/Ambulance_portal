@@ -190,8 +190,9 @@ body {
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: #483d3d;
+    background: #c74949;
     transition: all 0.5s;
+    color: #ede5e5;
     z-index: 997;
     padding: 20px 0;
     top: 80px;
